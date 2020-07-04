@@ -18,11 +18,11 @@ If you have Arduino installed to ~/, modify the installation as follows,
 
 - $cd ~/Arduino
 - $mkdir -p hardware/espressif
-$cd hardware/espressif 
-$git clone https://github.com/espressif/arduino-esp32.git esp32
-$cd esp32 
-$git submodule update --init --recursive
-$cd tools $python3 get.py
+- $cd hardware/espressif 
+- $git clone https://github.com/espressif/arduino-esp32.git esp32
+- $cd esp32 
+- $git submodule update --init --recursive
+- $cd tools $python3 get.py
 
 
 
@@ -37,11 +37,11 @@ $cd tools $python3 get.py
 3. Install rosserial_arduino from 
 You can install rosserial for Arduino by running: 
 
-$sudo apt-get install ros-kinetic-rosserial-arduino
-$sudo apt-get install ros-kinetic-rosserial
-$cd <sketchbook>/libraries
-$rm -rf ros_lib
-$rosrun rosserial_arduino make_libraries.py 
+- $sudo apt-get install ros-kinetic-rosserial-arduino
+- $sudo apt-get install ros-kinetic-rosserial
+- $cd <sketchbook>/libraries
+- $rm -rf ros_lib
+- $rosrun rosserial_arduino make_libraries.py 
 
 After restarting your IDE, you should see ros_lib listed under examples 
 
