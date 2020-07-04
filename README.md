@@ -16,8 +16,8 @@
 1. Install ESP32 
 If you have Arduino installed to ~/, modify the installation as follows, 
 
-$cd ~/Arduino
-$mkdir -p hardware/espressif
+- $cd ~/Arduino
+- $mkdir -p hardware/espressif
 $cd hardware/espressif 
 $git clone https://github.com/espressif/arduino-esp32.git esp32
 $cd esp32 
